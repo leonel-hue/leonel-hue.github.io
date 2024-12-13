@@ -1,0 +1,264 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: auto;
+    background-image: url('C:/LeoProject/Resources/images/space_4k.png');
+    height: 100%;
+    overflow: scroll;
+}
+
+header {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: auto;
+    grid-column: 1 / -1;
+    place-items: center;
+}
+
+.center {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-column: 1 / -1;
+    height: 600px;
+    place-content: space-around;
+    width: auto;
+}
+
+#container {
+    display: flex;
+    height: 200px;
+    width: auto;
+    align-items: center;
+    justify-content: start;
+    margin-left: 10px;
+    position: relative;
+}
+
+footer{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: auto;
+    place-items: center;
+    grid-column: 1 / -1;
+}
+
+#image_down {
+    grid-column: 6 / -6;
+    color: blue;
+    height: 40%;
+    width: 20%;
+    grid-row: 1;
+    position: sticky;
+    cursor: pointer;
+    left: 730px;
+}
+
+#image_up {
+    grid-row: 1;
+    grid-column: 6 / -6;
+    color: blue;
+    height: 40%;
+    width: 20%;
+    position: sticky;
+    cursor: pointer;
+    left: 730px;
+}
+
+.interfaces {
+    display: grid;
+    grid-column: 6 / -6;
+    grid-row: 2;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 100%;
+    height: 50px;
+    width: 100%;
+    place-self: center;
+    visibility: hidden;
+    position: sticky;
+    left: 630px;
+}
+
+.interfaces #in {
+    grid-column: 1;
+    grid-row: 1;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    align-content: center;
+}
+
+.interfaces #sn {
+    grid-column: 2;
+    grid-row: 1;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    align-content: center;
+}
+
+div h1 {
+    grid-row: 1;
+    grid-column: 1 / -1;
+}
+
+div button {
+    display: flex;
+    height: 200px;
+    width: 50px;
+    border: 1px solid rgba(0, 0, 0, 0.689);
+    cursor: pointer;
+}
+.boutton-content {
+    align-self: flex-end;
+    justify-content: center;
+
+}
+
+.boutton-content2 {
+    align-self: flex-end;
+    align-content: start;
+    cursor: pointer;
+}
+
+.boutton1 {
+    flex: 1;
+    box-shadow: 3px 3px ;
+    justify-content: center;
+    border-radius: 0 0px 5px 5px;
+
+}
+
+.boutton2 {
+    align-self: start;
+    height: 120px;
+    position: absolute;
+    width: 30px;
+    color: white;
+    justify-content: center;
+    border-radius: 0 0px 5px 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+
+}
+
+#z {
+    left: 35px;
+    background-color: #333333;
+}
+
+#x {
+    left: 90px;
+    background-color: #333333;
+}
+
+#c {
+    left: 192px;
+    background-color: #333333;
+}
+
+#v {
+    left: 245px;
+    background-color: #333333;
+}
+
+#b {
+    left: 297px;
+    background-color: #333333;
+}
+
+#n {
+    left: 400px;
+    background-color: #333333;
+
+}
+
+#m {
+    left: 453px;
+    background-color: #333333;
+}
+
+#m2H {
+    left: 557px;
+    background-color: #333333;
+}
+
+#m3H {
+    left: 608px;
+    background-color: #333333;
+}
+
+#m4H {
+    left: 660px;
+    background-color: #333333;
+}
+
+#a1 {
+    left: 764px;
+    background-color: #333333;
+}
+
+#a2 {
+    left: 817px;
+    background-color: #333333;
+}
+
+#a3 {
+    left: 922px;
+    background-color: #333333;
+}
+
+#a0 {
+    left: 970px;
+    background-color: #333333;
+}
+
+#asup {
+    left: 1025px;
+    background-color: #333333;
+}
+
+#abar {
+    left: 1130px;
+    background-color: #333333;
+}
+
+#abarinv {
+    left: 1181px;
+    background-color: #333333;
+}
+
+#amoins {
+    left: 1285px;
+    background-color: #333333;
+}
+
+#aplus {
+    left: 1337px;
+    background-color: #333333;
+}
+
+#adiv {
+    left: 1390px;
+    background-color: #333333;
+}
+
+#sm a {
+    text-decoration: none;
+    color: black;
+}
+
+.boutton1:active {
+    background-color: #fd4d3f;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+
+.boutton2:active {
+    background-color: red;
+}
