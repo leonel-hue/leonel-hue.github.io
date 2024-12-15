@@ -10,7 +10,7 @@ body {
     grid-template-rows: auto;
     background-image: url('https://www.donapram.site/Resources/images/sky.avif');
     height: 100%;
-    overflow: scroll;
+    overflow: auto;
 }
 
 header {
@@ -52,23 +52,25 @@ footer{
 #image_down {
     grid-column: 6 / -6;
     color: blue;
-    height: 40%;
-    width: 20%;
+    height: auto;
+    width: auto;
     grid-row: 1;
     position: sticky;
     cursor: pointer;
-    left: 730px;
+    margin-bottom: 15px;
+    left: 583px;
 }
 
 #image_up {
     grid-row: 1;
     grid-column: 6 / -6;
     color: blue;
-    height: 40%;
-    width: 20%;
+    height: auto;
+    width: auto;
     position: sticky;
     cursor: pointer;
-    left: 730px;
+    top: 15px;
+    left: 583px;
 }
 
 .interfaces {
@@ -82,7 +84,6 @@ footer{
     place-self: center;
     visibility: hidden;
     position: sticky;
-    left: 630px;
 }
 
 .interfaces #in {
@@ -132,7 +133,6 @@ div button {
     box-shadow: 3px 3px ;
     justify-content: center;
     border-radius: 0 0px 5px 5px;
-    font-size: 24px;
 
 }
 
@@ -145,7 +145,6 @@ div button {
     justify-content: center;
     border-radius: 0 0px 5px 5px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
-    font-size: 24px;
 
 }
 
