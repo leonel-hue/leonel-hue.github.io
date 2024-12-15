@@ -8,7 +8,7 @@ body {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     grid-template-rows: auto;
-    background-image: url('https://github.com/leonel-hue/leonel-hue.github.io/blob/c1b416683dfbff43af6243f42cf3d5f9767fb298/Resources/images/space_4k.png');
+    background-image: url('Resources/images/sky.avif');
     height: 100%;
     overflow: scroll;
 }
