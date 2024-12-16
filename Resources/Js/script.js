@@ -857,28 +857,18 @@ let amulup = function(event) {
 document.addEventListener('keydown', amuldown);
 document.addEventListener('keyup', amulup);
 
-
-let showMenu = function(event) {
+let Menu = function(event) {
     event.preventDefault();
     for (let i = 0; i < interfaces.length; i++) {
         let interface = interfaces[i];
-        if (interface.classList.toggle('hidden')) { 
-            return interface.classList.toggle('visible');
+        if (interface.style.visibility === 'visible') { 
+            return interface.style.visibility = 'hidden';
+        } else {
+            return interface.style.visibility = 'visible';
         }
     }
 };
 
-let hideMenu = function(event) {
-    event.preventDefault();
-    for (let i = 0; i < interfaces.length; i++) {
-        let interface = interfaces[i];
-        if (interface.classList.toggle('visible')) { 
-            return interface.classList.toggle('hidden');
-        }
-    }
-};
-
-document.addEventListener('click', showMenu);
-document.addEventListener('click', hideMenu);
+document.addEventListener('click', Menu);
 
 
