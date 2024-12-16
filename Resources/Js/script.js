@@ -1,6 +1,6 @@
 let menu_up = document.getElementById('menu_up');
 let interfaces = document.getElementsByClassName('interfaces');
-let image = document.getElementById('image_up');
+let image_up = document.getElementById('image_up');
 let q = document.getElementById('q');
 let w = document.getElementById('w');
 let e = document.getElementById('e');
@@ -869,6 +869,6 @@ let Menu = function(event) {
     }
 };
 
-document.addEventListener('click', Menu);
+image_up.addEventListener('click', Menu);
 
 

@@ -4,11 +4,14 @@
     box-sizing: border-box;
 }
 
+html {
+    background-image: url('https://www.donapram.site/Resources/images/sky.avif');
+}
+
 body {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     grid-template-rows: auto;
-    background-image: url('https://www.donapram.site/Resources/images/sky.avif');
     height: 100%;
     overflow: auto;
 }
