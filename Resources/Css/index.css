@@ -50,6 +50,13 @@ footer{
     grid-template-rows: auto;
     place-items: center;
     grid-column: 1 / -1;
+    position: sticky;
+    bottom: 15px;
+    margin-bottom: 15px;
+}
+
+ul button {
+    cursor: pointer;
 }
 
 #image_down {
@@ -58,10 +65,7 @@ footer{
     height: auto;
     width: auto;
     grid-row: 1;
-    position: sticky;
     cursor: pointer;
-    margin-bottom: 15px;
-    left: 583px;
 }
 
 #image_up {

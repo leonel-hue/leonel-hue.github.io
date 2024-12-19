@@ -1,0 +1,22 @@
+{
+  "name": "npm_modules",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "donapram tests",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --require @babel/register ./test/scriptTest.js"
+  },
+  "author": "leonel taffouo",
+  "license": "ISC",
+  "devDependencies": {
+    "jsdom": "^25.0.1",
+    "mocha": "^11.0.1"
+  },
+  "dependencies": {
+    "@babel/core": "^7.26.0",
+    "@babel/preset-env": "^7.26.0",
+    "@babel/register": "^7.25.9",
+    "npm_modules": "file:"
+  }
+}

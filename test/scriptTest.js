@@ -1,3 +1,4 @@
+import './setup.js';
 let menu_up = document.getElementById('menu_up');
 let interfaces = document.getElementsByClassName('interfaces');
 let image_up = document.getElementById('image_up');
@@ -870,4 +871,5 @@ let Menu = function(event) {
 };
 
 image_up.addEventListener('click', Menu);
+
 
