@@ -60,5 +60,3 @@ const renderResponse = (res) => {
     rawJson = JSON.stringify(rawJson).replace(/,/g, ", \n");
     responseField.innerHTML = `<pre>${rawJson}</pre>`;
   }
-
-  fetch(url, {method: 'POST' body: JSON.stringify({id: '200'}), Headers: {'Content-Type': 'application/json'}}, foo)
