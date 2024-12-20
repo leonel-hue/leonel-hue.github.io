@@ -4,9 +4,9 @@
     box-sizing: border-box;
 }
 
-html {
+/*html {
     background-image: url('https://www.donapram.site/Resources/images/sky.avif');
-}
+}*/
 
 header {
     display: flex;
@@ -88,7 +88,7 @@ ul li {
 
 li a {
     text-decoration: none;
-    color: white;
+    color: black;
 }
 
 .login {
@@ -100,7 +100,7 @@ li a {
 
 .login a {
     text-decoration: none;
-    color: white;
+    color: black;
 }
 
 #logo {
