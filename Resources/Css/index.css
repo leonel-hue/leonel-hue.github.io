@@ -22,6 +22,7 @@ header {
     grid-template-rows: auto;
     grid-column: 1 / -1;
     place-items: center;
+    position: relative;
 }
 
 .center {
@@ -29,9 +30,10 @@ header {
     grid-template-columns: 1fr;
     grid-template-rows: auto;
     grid-column: 1 / -1;
-    height: 600px;
+    height: 580px;
     place-content: space-around;
     width: auto;
+    position: relative;
 }
 
 #container {
@@ -41,7 +43,9 @@ header {
     align-items: center;
     justify-content: start;
     margin: 5px;
-    position: relative;
+    position: sticky;
+    top: 25%;
+    bottom: 25%;
 }
 
 footer{
@@ -50,9 +54,7 @@ footer{
     grid-template-rows: auto;
     place-items: center;
     grid-column: 1 / -1;
-    position: sticky;
-    bottom: 15px;
-    margin-bottom: 15px;
+    position: relative;
 }
 
 ul button {
@@ -66,6 +68,10 @@ ul button {
     width: auto;
     grid-row: 1;
     cursor: pointer;
+    position: fixed;
+    left: 50%;
+    margin-bottom: 15px;
+    bottom: 15px;
 }
 
 #image_up {
@@ -74,11 +80,12 @@ ul button {
     color: blue;
     height: auto;
     width: auto;
-    position: sticky;
+    position: fixed;
     cursor: pointer;
     margin-top: 15px;
+    left: 50%;
     top: 15px;
-    left: 583px;
+
 }
 
 .interfaces {
@@ -276,3 +283,4 @@ div button {
 .boutton2:active {
     background-color: red;
 }
+ 
