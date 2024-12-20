@@ -63,7 +63,6 @@ ul button {
 
 #image_down {
     grid-column: 6 / -6;
-    color: blue;
     height: auto;
     width: auto;
     grid-row: 1;
@@ -77,7 +76,6 @@ ul button {
 #image_up {
     grid-row: 1;
     grid-column: 6 / -6;
-    color: blue;
     height: auto;
     width: auto;
     position: fixed;
@@ -134,6 +132,7 @@ div button {
 .boutton-content {
     align-self: flex-end;
     justify-content: center;
+    color: black;
 
 }
 
@@ -141,6 +140,7 @@ div button {
     align-self: flex-end;
     align-content: start;
     cursor: pointer;
+    color: white
 }
 
 .boutton1 {
@@ -148,6 +148,7 @@ div button {
     box-shadow: 3px 3px ;
     justify-content: center;
     border-radius: 0 0px 5px 5px;
+    color: black;
 
 }
 
@@ -156,7 +157,7 @@ div button {
     height: 120px;
     position: absolute;
     width: 30px;
-    color: white;
+    color: black;
     justify-content: center;
     border-radius: 0 0px 5px 5px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
